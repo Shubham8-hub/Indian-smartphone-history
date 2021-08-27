@@ -174,3 +174,155 @@ nav{
 .custom-shape-divider-top-1629455915 .shape-fill {
     fill: #00CCFF;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------  Navabar css  ---------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;;
+}
+.logo{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;   
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+
+/* --------------------  Navabar css End ---------------------- */
+
+/* ----------------------about page css---------------------------- */
+
+/* --------------------------  section css  -------------------------------- */
+
+.heading {
+    margin-top: 1.5rem;
+}
+
+p.content {
+    text-align: -webkit-center;
+    font-size: 0.9rem;
+}
+
+p.content-1 {
+    margin: 30px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1.main-heading {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+h2.main-heading-1 {
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+hr {
+    margin-top: 18px;
+}
+
+p.main-content-1 {
+    padding: 0 4rem 0 4rem;
+    margin-top: 0.5rem;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img.img-1 {
+    height: 15rem;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem 2rem 0 2rem;
+}
+
+.content1.content2 {
+    flex-direction: inherit;
+}
+
+.main-content {
+    margin: 0 4rem;
+}
+
+.summary-img {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+h1.summary {
+    margin: 2rem 5rem 2rem;
+}
+/* --------------------------  section css  End -------------------------------- */
+
+/* ------------------------------ Footer css ------------------------------------ */
+
+.dark{
+    background: rgb(14, 14, 14);
+    color: white;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100px;
+    padding: 50px 20vw;
+    text-align: center;
+}
+
+/* ------------------------------ Footer css End ------------------------------------ */
